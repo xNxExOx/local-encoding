@@ -1,0 +1,13 @@
+[package]
+name = "local-encoding"
+version = "0.1.0"
+edition = "2021"
+description = "Rust library for encoding/decoding string with local charset. It usefull for work with ANSI strings on Windows. Based on https://github.com/bozaro/local-encoding-rs without dependencies"
+publish = false
+
+[lib]
+crate-type = ["lib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
